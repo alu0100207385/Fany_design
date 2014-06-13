@@ -1,3 +1,12 @@
 #fondo {
     background-image: url("http://eljardindelviaje.files.wordpress.com/2013/05/fondo-azul-playa2.png");
 }
+
+#pie_pagina{
+  background-color:#C0C0C0;
+}
+
+#pie_pagina img{
+  imgheight:25px;
+  width:25px;
+}
