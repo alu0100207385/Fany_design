@@ -1,10 +1,14 @@
-#fondo {
-    background-image: url("http://eljardindelviaje.files.wordpress.com/2013/05/fondo-azul-playa2.png");
+@charset "UTF-8";
+
+#imagen_cabecera {
+  border:5px solid DarkSlateGray;
 }
 
 #menu_cabecera{
   background-color:black;
   color:white;
+  text-align:center;
+  height:35px;
 }
 
 #menu_cabecera a:link {color:#FFFFFF;  text-decoration:none;}
@@ -12,12 +16,32 @@
 #menu_cabecera a:hover {color:#00FF7F; text-decoration:none;}
 
 
+body {
+    font-family:'Roboto';
+}
+
+#introduccion{
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+#about{
+  background-color:#DCDCDC;
+}
+
+#foto_about img{
+  height:210px;
+  width:200px;
+}
+
 #pie_pagina{
   background-color:#C0C0C0;
   text-align:center;
 }
 
 #pie_pagina img{
-  imgheight:25px;
+  height:25px;
   width:25px;
+  margin-top:1%;
+  margin-bottom:1%;
 }
