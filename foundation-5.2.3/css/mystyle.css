@@ -11,9 +11,16 @@
   height:35px;
 }
 
-#menu_cabecera a:link {color:#FFFFFF;  text-decoration:none;}
-#menu_cabecera a:visited {color: #ffffff;text-decoration:none;} 
-#menu_cabecera a:hover {color:#00FF7F; text-decoration:none;}
+.cuadro{
+  margin-top:10px;
+/*   text-align:center; */
+  font-size:75%;
+  font-weight:bold;
+}
+
+.cuadro a:link {color:#FFFFFF;  text-decoration:none;}
+.cuadro a:visited {color: #ffffff;text-decoration:none;} 
+.cuadro a:hover {color:#00FF7F; text-decoration:none;}
 
 
 body {
