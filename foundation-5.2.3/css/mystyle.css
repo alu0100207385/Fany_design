@@ -27,9 +27,12 @@ body {
     font-family:'Roboto';
 }
 
-#introduccion{
+.bloque{
   margin-top:2%;
-  margin-bottom:2%;
+}
+
+#introduccion{
+  margin-top:4%;
 }
 
 #about{
@@ -37,8 +40,13 @@ body {
 }
 
 #foto_about img{
-  height:210px;
+  height:190px;
   width:200px;
+  float:left;
+}
+
+#ico_skills img{
+  float:left;
 }
 
 #pie_pagina{
