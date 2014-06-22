@@ -59,6 +59,11 @@ body {
   float:left;
 }
 
+#skills2{
+  margin-left:2%;
+  margin-top:3%;
+}
+
 #contacto{
   background-color:#252e30;
   color:gray;

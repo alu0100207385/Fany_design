@@ -1070,12 +1070,13 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+    
 button, .button {
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
   font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   line-height: normal;
   margin: 0 0 1.25rem;
   position: relative;
@@ -1085,7 +1086,7 @@ button, .button {
   -webkit-border-radius: 0;
   display: inline-block;
 /*   padding-top: 1rem; */
-  padding-top: 0.7rem;
+  padding-top: 0.6rem;
 /*   padding-right: 2rem; */
   padding-right: 1.2rem;
 /*   padding-bottom: 1.0625rem; */
@@ -1216,6 +1217,38 @@ button, .button {
       button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
         background-color: #f04124; }
 
+        
+.button2 {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 0.6rem;
+  padding-right: 1.2rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1.2rem;
+  font-size: 0.8rem;
+  background-color: transparent;
+  border-color: white;
+  color:white;
+  transition: background-color 300ms ease-out; }
+  .button2:hover, .button2:focus {
+    background-color:white;
+  }
+  .button2:hover, .button2:focus {
+    color: black; }
+
+        
+        
 @media only screen and (min-width: 40.063em) {
   button, .button {
     display: inline-block; } }
