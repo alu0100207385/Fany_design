@@ -1,7 +1,23 @@
 @charset "UTF-8";
 
+html{
+  font-family:"Roboto";
+}
+
 #imagen_cabecera {
-  border:5px solid DarkSlateGray;
+  background-image:url("./../img/mi-web_01.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+/*   background-attachment:fixed; */
+/*   width:1000px; */
+  height:600px;
+  background-size: 100% 100%;
+}
+
+#boton_inicio{
+  position:absolute;
+  left:44.5%;
+  top:60.5%;
 }
 
 #menu_cabecera{
@@ -22,17 +38,13 @@
 .cuadro a:visited {color: #ffffff;text-decoration:none;} 
 .cuadro a:hover {color:#00FF7F; text-decoration:none;}
 
-
-body {
-    font-family:'Roboto';
-}
-
 .bloque{
   margin-top:2%;
 }
 
 #introduccion{
   margin-top:4%;
+  width:87%;
 }
 
 #about{
@@ -42,8 +54,8 @@ body {
 }
 
 #foto_about img{
-  height:170px;
-  width:170px;
+  height:220px;
+  width:220px;
   float:left;
   margin-right:5%;
 }

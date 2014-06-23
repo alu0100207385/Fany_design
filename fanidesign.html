@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 9]><html lang="en" > <![endif]-->
+<!--[if IE 9]><html lang="es" > <![endif]-->
 <html lang="es">
   <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./foundation-5.2.3/css/foundation.css">
     <link rel="stylesheet" type="text/css" href="./foundation-5.2.3/css/mystyle.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
 	$(document).ready(function(){
 	    $('.button').mouseover(function(){
@@ -18,28 +18,36 @@
 	      $('audio')[0].play();
 	    });
 	});
-    </script>
+    </script>-->
   </head>
   
-  <body id="index">
-<!--   <div id="home"></div> -->
+  <body id="home">
+  
+<!--  <audio preload>
+      <source src="./foundation-5.2.3/resources/bambu_1.mp3" type="audio/mp3">
+      <source src="./foundation-5.2.3/resources/bambu_1.ogg" type="audio/ogg">
+      La version actual del explorador no soporta audio en HTML5!
+  </audio>-->
+
 <!--       Imagen de cabecera -->
     <div class="row">
-	<div class="medium-12 columns">
-	    <img src="./foundation-5.2.3/img/mi-web_01.jpg" alt="El Teide" id="imagen_cabecera">
+	<div class="medium-12 columns" id="imagen_cabecera">
+	    <a href="#index" class="button3" id="boton_inicio">LEARN MORE</a>
 	</div>
     </div>
     
 <!--     Menu_cabecera -->
-    <div class="row">
-	<div class="medium-12 columns">
-	  <div id="menu_cabecera">
+    <div class="row"  id="index">
+	<div class="medium-12 columns" id="menu_cabecera">
+<!-- 	  <div > -->
 		<div class="medium-3 columns">
-		    <div class="cuadro">Logo_FaniDesign</div>
+		    <div class="cuadro">
+			<a href="#home">Logo_FaniDesign</a>
+		    </div>
 		</div>
 		<div class="medium-9 columns">
 		    <div class="cuadro">
-			<a href="#index">HOME</a>&nbsp;&nbsp;&nbsp;
+			<a href="#home">HOME</a>&nbsp;&nbsp;&nbsp;
 			<a href="#about_me">ABOUT ME</a>&nbsp;&nbsp;&nbsp;
 			<a href="#skills">SKILLS</a>&nbsp;&nbsp;&nbsp;
 			<a href="#resume">RESUME</a>&nbsp;&nbsp;&nbsp;
@@ -48,7 +56,7 @@
 			<a href="#contact">CONTACT ME</a>
 		    </div> <!--cuadro-->
 		</div> <!--9col-->
-	    </div><!--id menucabecera-->
+	    <!--id menucabecera-->
       </div> <!--12columns-->
     </div> <!--row-->
   
@@ -76,13 +84,15 @@
 <!--ABOUT ME-->
     <div class="bloque" id="about_me">
 	<div class="row">
-	    <div class="small-12 large-12 columns">
-		<div id="about">
+	    <div class="small-1 large-1 columns">
+<!-- 		&nbsp; -->
+	    </div>
+	    <div class="small-11 large-11 columns" id="about">
 		    <div id="foto_about">
 			<img src="./foundation-5.2.3/img/foto_carnet.png" alt="foto_perfil">
 		    </div>
 		    <div id="espacio">
-			<h6><strong>ABOUT ME</strong>&nbsp;&nbsp;<a href="#index"><img src="http://www.eczane.com.ar/images/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6>
+			<h6><strong>ABOUT ME</strong>&nbsp;&nbsp;<a href="#index"><img src="./foundation-5.2.3/img/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6>
 			<p>Diseñadora gráfica canaria con residencia en Barcelona, con más de 5 años de experiencia
 			en el campo de la comuniación visual.</p>
 			<p>Aptitudes para el desarrollo, dirección y realización de pequeños y grandes proyectos.<br>
@@ -90,7 +100,6 @@
 			La fácil adaptación a cada proyecto me permite trabajar tanto de manera individual,
 			como en equipo.<br></p>
 		    </div>
-		</div>
 	    </div>
 	</div> <!--row-->
     </div> <!--bloque-->
@@ -98,16 +107,19 @@
 <!--   SKILLS -->
   <div class="bloque" id="skills">
       <div class="row">
-	  <div class="medium-12 columns">
-	      <h6><strong>SKILLS</strong>&nbsp;&nbsp;<a href="#index"><img src="http://www.eczane.com.ar/images/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6><br>
+	  <div class="small-1 large-1 columns">
+<!-- 	      &nbsp; -->
+	  </div>
+	  <div class="small-11 large-11 columns">
+	      <h6><strong>SKILLS</strong>&nbsp;&nbsp;<a href="#index"><img src="./foundation-5.2.3/img/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6><br>
 	      <div class="ico_skills">
 		  <div class="row">
-		      <div class="medium-6 columns">
+		      <div class="small-6 large-6 columns">
 			  <img src="./foundation-5.2.3/img/ic01.png" alt="icono">
 			  <p><strong>GRAPHIC DESIGN</strong><br>
 			  Logotipos, diseño editorial, carteles, flyllers, packaging, ...</p>
 		      </div>
-		      <div class="medium-6 columns">
+		      <div class="small-6 large-6 columns">
 			  <img src="./foundation-5.2.3/img/ic02.png" alt="icono">
 			  <p><strong>WEB DESIGN</strong><br>
 			  Flat web design, responsive design, RRSS.</p>
@@ -117,12 +129,12 @@
 		<br>
 
 		<div class="row">
-		    <div class="medium-6 columns">
+		    <div class="small-6 large-6 columns">
 			<img src="./foundation-5.2.3/img/ic03.png" alt="icono">
 			<p><strong>ONLINE MARKETING</strong><br>
 			Asesoramiento y lanzamiento de campañas online.</p>
 		    </div>
-		    <div class="medium-6 columns">
+		    <div class="small-6 large-6 columns">
 			<img src="./foundation-5.2.3/img/ic04.png" alt="icono">
 			<p><strong>PHOTOGRAPHY</strong><br>
 			Fotografía y retoque de imagen digital profesional.</p>
@@ -157,17 +169,12 @@
       </div>
   </div>
 
-  <div class="bloque" id="resume"> <!--RESUME-->
+  <div class="bloque"> <!--RESUME-->
     <div class="row">
-      <div class="medium-12 columns">
-	  <h6><strong>RESUME</strong>&nbsp;&nbsp;<a href="#index"><img src="http://www.eczane.com.ar/images/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6>
+      <div class="medium-12 columns" id="resume">
+	  <h6><strong>RESUME</strong>&nbsp;&nbsp;<a href="#index"><img src="./foundation-5.2.3/img/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6>
 	  <p>Si necesitas mas información detallada y quieres descargarte mi currículum vitae<br>dale al botón de descarga.</p>
 	  <a href="./foundation-5.2.3/resources/cvfani.txt" download="descargar_cv" class="button">DOWNLOAD CURRÍCULUM</a>
-	  <audio preload>
-	      <source src="./foundation-5.2.3/resources/bambu_1.mp3" type="audio/mp3">
-	      <source src="./foundation-5.2.3/resources/bambu_1.ogg" type="audio/ogg">
-	      La version actual del explorador no soporta audio en HTML5!
-	  </audio>
 <!-- 	    <a href="./foundation-5.2.3/resources/cvfani.txt" download="descargar_cv"><img border="0" src="/images/myw3schoolsimage.jpg" alt="W3Schools" width="104" height="142"></a> -->
       </div>
     </div>
@@ -177,7 +184,7 @@
   <div class="bloque">
     <div class="row">
       <div class="medium-12 columns">
-	  <h6 id="testimonials"><strong>TESTIMONIALS</strong>&nbsp;&nbsp;<a href="#index"><img src="http://www.eczane.com.ar/images/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6>
+	  <h6 id="testimonials"><strong>TESTIMONIALS</strong>&nbsp;&nbsp;<a href="#index"><img src="./foundation-5.2.3/img/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6>
       </div>
     </div>
   </div>
@@ -186,16 +193,16 @@
   <div class="bloque">
     <div class="row">
       <div class="medium-12 columns">
-	  <h6 id="portafolio"><strong>PORTAFOLIO</strong>&nbsp;&nbsp;<a href="#index"><img src="http://www.eczane.com.ar/images/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6>
+	  <h6 id="portafolio"><strong>PORTAFOLIO</strong>&nbsp;&nbsp;<a href="#index"><img src="./foundation-5.2.3/img/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6>
       </div>
     </div>
   </div>
  
 <!--CONTACTO-->
-  <div class="bloque" id="contacto">
+  <div class="bloque">
     <div class="row">
-      <div class="medium-12 columns">
-	  <h6 class="color_blanco" id="contact"><strong>CONTACT ME</strong>&nbsp;&nbsp;<a href="#index"><img src="http://www.eczane.com.ar/images/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6>
+      <div class="medium-12 columns" id="contacto">
+	  <h6 class="color_blanco" id="contact"><strong>CONTACT ME</strong>&nbsp;&nbsp;<a href="#index"><img src="./foundation-5.2.3/img/top-arrow.png" title="volver arriba" alt="volver_arriba"></a></h6>
 	      <div class="row">
 		  <div class="medium-6 columns">
 		    <p>Si quieres ponerte en contacto conmigo o recibir mas información sobre mí,
