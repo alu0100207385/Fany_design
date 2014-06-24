@@ -19,9 +19,11 @@ $contenido = "$nombre ha enviado un mensaje desde la web http://fanidesign.comxa
 //Enviamos el mensaje y comprobamos el resultado
 if (@mail($email_to, $asunto ,$contenido ,$cabeceras )) {
 //Si el mensaje se envía muestra una confirmación
-die("Gracias, su mensaje se envio correctamente.");
+// die("Gracias, su mensaje se envio correctamente.");
+return true;
 }else{
 //Si el mensaje no se envía muestra el mensaje de error
-die("Error: Su información no pudo ser enviada, inténtelo más tarde");
+// die("Error: Su información no pudo ser enviada, inténtelo más tarde");
+return false;
 }
 ?>

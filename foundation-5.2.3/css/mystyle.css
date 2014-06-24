@@ -16,19 +16,20 @@ html{
 
 #boton_inicio{
   position:absolute;
-  left:44.5%;
-  top:60.5%;
+  left:45.15%;
+  top:61%;
 }
 
 #menu_cabecera{
   background-color:black;
   color:white;
   text-align:center;
-  height:35px;
+  height:20%;
 }
 
 .cuadro{
   margin-top:10px;
+  margin-bottom:10px;
 /*   text-align:center; */
   font-size:75%;
   font-weight:bold;
@@ -39,7 +40,7 @@ html{
 .cuadro a:hover {color:#00FF7F; text-decoration:none;}
 
 .bloque{
-  margin-top:2%;
+  margin-top:3%;
 }
 
 #introduccion{
@@ -49,8 +50,6 @@ html{
 
 #about{
    background-color:#f2f2f1;
-/*   background-color:gray; */
-/*   margin-left:4%; */
 }
 
 #foto_about img{
@@ -58,6 +57,11 @@ html{
   width:220px;
   float:left;
   margin-right:5%;
+  margin-left:-15px;
+}
+
+#tmp {
+  margin-left:0%;
 }
 
 #espacio {margin-right:10%;}
@@ -79,6 +83,11 @@ html{
 #contacto{
   background-color:#252e30;
   color:gray;
+}
+
+#confirmacion {
+  text-align:center;
+  color:white;
 }
 
 .color_blanco{
