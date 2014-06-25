@@ -80,6 +80,24 @@ html{
   margin-top:3%;
 }
 
+#testimonials {
+  text-align: center;
+}
+
+#testimonial_slider {
+  text-align:center;
+/*   background-color:#f2f2f1; */
+}
+
+#testimonial_slider p{
+   margin-top: 4%;
+   margin-bottom: 4%;
+}
+
+.firma {
+  font-size:0.7rem;
+}
+
 #contacto{
   background-color:#252e30;
   color:gray;

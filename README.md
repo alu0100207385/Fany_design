@@ -27,5 +27,8 @@ Recursos
  - http://www.000webhost.com/
  - http://validator.w3.org/
  - https://developers.google.com/speed/libraries/devguide#jquery
+ - http://ajaxload.info/
+ - http://bxslider.com/ (Fuente: http://www.web-desings.com/2012/08/02/20-excelentes-slider-show-para-utilizar-en-tu-web.html)
+ 
 
 Fanidesign 2014 ®
