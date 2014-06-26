@@ -16,7 +16,7 @@
 
 .bx-wrapper {
 	position: relative;
-	margin: 0 auto 60px;
+	margin: 0 auto 0px;
 	padding: 0;
 	*zoom: 1;
 }
@@ -33,9 +33,9 @@
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc;
-	border:  5px solid #fff;
-	left: -5px;
-	background: #fff;
+	border:  1px solid #f2f2f1;
+	left: 0px;
+	background: #f2f2f1;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
@@ -48,7 +48,7 @@
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
-	bottom: -30px;
+	bottom: 15%;
 	width: 100%;
 }
 
@@ -84,12 +84,13 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: #666;
+	background: transparent;
 	text-indent: -9999px;
 	display: block;
 	width: 10px;
 	height: 10px;
 	margin: 0 5px;
+	border: 1px solid green;
 	outline: 0;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -98,7 +99,7 @@
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #000;
+	background: green;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
