@@ -1098,13 +1098,13 @@ button, .button {
 /*   background-color: #008cba; */
   background-color: transparent;
 /*   border-color: #007095; */
-  border-color: green;
+  border-color: #2ecc71;
 /*   color: white; */
-  color: green;
+  color: #2ecc71;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
 /*     background-color: #007095; */
-    background-color:green;
+    background-color:#2ecc71;
   }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }

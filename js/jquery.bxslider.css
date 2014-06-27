@@ -90,7 +90,7 @@
 	width: 10px;
 	height: 10px;
 	margin: 0 5px;
-	border: 1px solid green;
+	border: 1px solid #3CB371;
 	outline: 0;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -99,7 +99,7 @@
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: green;
+	background: #3CB371;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
