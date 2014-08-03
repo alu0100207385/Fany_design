@@ -19,7 +19,9 @@ $contenido = "$nombre ha enviado un mensaje desde la web http://fanidesign.comxa
 //Enviamos el mensaje y comprobamos el resultado
 if (@mail($email_to, $asunto ,$contenido ,$cabeceras )) {
 //Si el mensaje se envía muestra una confirmación
-  die("Gracias, su mensaje se envio correctamente.");
+//   die("Gracias, su mensaje se envio correctamente.");
+//   header('Location: http://fanidesign.comxa.com/fanidesign.html#contact');
+header('Location: http://fanidesign.comxa.com/sent_ok.html');
 // return true;
 // }else{
 //Si el mensaje no se envía muestra el mensaje de error
