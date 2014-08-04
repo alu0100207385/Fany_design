@@ -16,6 +16,7 @@ Documentación
  - http://www.paginas.in/archivos/593
  - http://www.w3schools.com/html/default.asp
  - http://api.jquery.com/
+ - https://php.net/
  
 Recursos
 ========
