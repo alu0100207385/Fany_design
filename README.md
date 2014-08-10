@@ -30,6 +30,8 @@ Recursos
  - https://developers.google.com/speed/libraries/devguide#jquery
  - http://ajaxload.info/
  - http://bxslider.com/ (Fuente: http://www.web-desings.com/2012/08/02/20-excelentes-slider-show-para-utilizar-en-tu-web.html)
+ - http://www.sourcetreeapp.com/
+ - http://www.cincopa.com/
  
 
 Fanidesign 2014 ®
