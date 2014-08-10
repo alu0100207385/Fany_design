@@ -102,6 +102,11 @@ html{
 #testimonial_slider li {
   margin-left: -17px;
   height: 230px;
+    background: #f2f2f1;
+}
+
+#portafolio {
+  text-align:center;
 }
 
 .firma {
